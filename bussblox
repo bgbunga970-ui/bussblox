@@ -1,0 +1,93 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>bussblox</title>
+</head>
+
+<body>
+
+    <h1>bussblox</h1>
+
+    <p>Bienvenue sur mon site.</p>
+
+    <p>Je crée des mini-jeux Roblox et des sites web.</p>
+
+    <button>Mes projets</button>
+
+</body>
+</html>
+		
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHX Studio</title>
+
+    <style>
+        body {
+            background: #0b1020;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #151d33;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #00e5ff;
+            font-size: 42px;
+        }
+
+        p {
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        .hero {
+            padding: 80px 20px;
+        }
+
+        button {
+            background: #00e5ff;
+            color: #0b1020;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: white;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <strong>bussblox 🎮</strong>
+    </header>
+
+    <main class="hero">
+        <h1>BUILD YOUR FUTURE</h1>
+
+        <p>
+            Je crée des mini-jeux Roblox
+            et des sites web.
+        </p>
+
+        <button onclick="alert('Bienvenue chez bussblox !')">
+            Découvrir mon studio
+        </button>
+    </main>
+
+</body>
+</html>
